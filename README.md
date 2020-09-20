@@ -1,16 +1,31 @@
-# iconscatalog
+# Material Desing Icons Catalog
 
-A new Flutter project.
+A flutter application for extract list of your favorites icons.
 
-## Getting Started
+I built this for a very particular use.
 
-This project is a starting point for a Flutter application.
+Features include: 
+- List Material Design icons by page.
+- Select and remove by tap. 
+- Order list by drag
+- Remove by swipe
+- Export selected icons by share
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Selection page
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Select/unselect by tab, browse by page.
+For clear all selection tab on [clear] button.
+
+https://github.com/cristianbmata/Material-Design-Icons-catalog/blob/master/lib/images/List%20page.png
+
+## Picked icons page
+
+Re-order by drag, remove by swipe.
+Tap on [Share] button to export.
+
+https://github.com/cristianbmata/Material-Design-Icons-catalog/blob/master/lib/images/Picked%20page.png
+
+
+Inspired by icon selection in:
+https://github.com/ys27/FundTracker
