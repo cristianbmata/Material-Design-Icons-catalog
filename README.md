@@ -17,14 +17,15 @@ Features include:
 Select/unselect by tab, browse by page.
 For clear all selection tab on [clear] button.
 
-https://github.com/cristianbmata/Material-Design-Icons-catalog/blob/master/lib/images/List%20page.png
+<img alt="Selection page" src="https://github.com/cristianbmata/Material-Design-Icons-catalog/blob/master/lib/images/List%20page.png?raw=true" width="40%">
+
 
 ## Picked icons page
 
 Re-order by drag, remove by swipe.
 Tap on [Share] button to export.
 
-https://github.com/cristianbmata/Material-Design-Icons-catalog/blob/master/lib/images/Picked%20page.png
+<img alt="Picked icons page" src="https://github.com/cristianbmata/Material-Design-Icons-catalog/blob/master/lib/images/Picked%20page.png?raw=true" width="40%">
 
 
 Inspired by icon selection in:
