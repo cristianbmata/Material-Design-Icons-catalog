@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-int numIconsPerPage = 130;
+int iconsPerPage = 130;
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage>
   List<IconData> selectedIcons = [];
 
   int indexStart = 0;
-  int indexEnd = numIconsPerPage;
+  int indexEnd = iconsPerPage;
 
   TabController _tabController;
 
@@ -220,14 +220,14 @@ class _MyHomePageState extends State<MyHomePage>
                       onPressed: () {
                         if (indexStart > 0) {
                           setState(() {
-                            indexStart = indexStart - numIconsPerPage;
-                            indexEnd = indexEnd - numIconsPerPage;
+                            indexStart = indexStart - iconsPerPage;
+                            indexEnd = indexEnd - iconsPerPage;
                           });
                         }
                       }),
                   Spacer(),
                   Text(
-                    'Page ${(indexStart / numIconsPerPage + 1).toInt()}/${(iconsRegistry.length / numIconsPerPage + 1).toInt()}',
+                    'Page ${(indexStart / iconsPerPage + 1).toInt()}/${(iconsRegistry.length / iconsPerPage + 1).toInt()}',
                   ),
                   Spacer(),
                   IconButton(
@@ -239,8 +239,8 @@ class _MyHomePageState extends State<MyHomePage>
                       onPressed: () {
                         if (indexStart < 3540) {
                           setState(() {
-                            indexStart = indexStart + numIconsPerPage;
-                            indexEnd = indexEnd + numIconsPerPage;
+                            indexStart = indexStart + iconsPerPage;
+                            indexEnd = indexEnd + iconsPerPage;
                             print(
                                 'indexStart ${indexStart.toString()}. | indexEnd: ${indexEnd.toString()}');
                           });
